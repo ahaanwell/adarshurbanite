@@ -27,7 +27,8 @@ export default function TopHospitalsSection() {
     Adarsh Urbanite is located on Bellandur Lake Road, Kariyammana Agrahara, Bellandur, Bengaluru. The surrounding area has access to several healthcare facilities, including multispeciality hospitals, maternity centres, children's hospitals and specialist medical centres. These facilities may be convenient for residents seeking routine consultations, diagnostic services or more specialised medical care.
   </p>
 
-  <table className="w-full border-collapse border border-gray-300">
+  <div className="w-full overflow-x-auto">
+    <table className="w-full min-w-[700px]  border-collapse border border-gray-300">
     <thead>
       <tr className="bg-gray-100">
         <th className="border border-gray-300 p-3 text-left">No.</th>
@@ -110,6 +111,7 @@ export default function TopHospitalsSection() {
       </tr>
     </tbody>
   </table>
+  </div>
 
   <p>
     The nearby healthcare network includes facilities catering to different needs, from general medical consultations and diagnostic tests to specialist eye care, maternity services and paediatric treatment. Sakra World Hospital, Manipal Hospitals and Nelivigi Multispeciality Hospital are options for residents researching broader hospital services, while Cloudnine, Motherhood and Rainbow Children's Hospital focus on women's, maternity or children's healthcare.

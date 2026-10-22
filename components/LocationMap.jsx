@@ -27,7 +27,7 @@ export default function LocationMap() {
         target="_blank"
         rel="nofollow noopener noreferrer"
         aria-label="Know more about Adarsh Urbanite location on Whitefield–Hoskote Road"
-        className="block w-full bg-primary hover:bg-primary-dark text-white text-center font-semibold text-lg py-4 transition-colors duration-200"
+        className="block w-full bg-primary text-white text-center font-semibold text-lg py-4 transition-colors duration-200"
       >
         Know More About Location
       </Link>

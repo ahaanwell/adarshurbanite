@@ -26,7 +26,7 @@ export default function TopShoppingMallsSection() {
   <p>
     Adarsh Urbanite is situated on Bellandur Lake Road, Kariyammana Agrahara, Bellandur, Bengaluru. Residents can explore shopping and entertainment destinations around Bellandur, Sarjapur Road, Haralur and Whitefield. Nearby options include Soul Space Spirit Centro Mall and Market Square Mall, while larger destinations in other parts of Bengaluru offer additional retail, dining and cinema choices.
   </p>
-
+  <div className="w-full overflow-x-auto">
   <table className="w-full border-collapse border border-gray-300">
     <thead>
       <tr className="bg-gray-100">
@@ -99,6 +99,7 @@ export default function TopShoppingMallsSection() {
       </tr>
     </tbody>
   </table>
+  </div>
 
   <p>
     Shopping facilities around Bellandur provide options for everyday purchases, fashion shopping, dining and entertainment. Soul Space Spirit Centro Mall is located along the Outer Ring Road, making it a convenient destination to explore from the Bellandur area. Market Square Mall on Sarjapur Main Road and PNR Felicity Mall in Haralur are other options for nearby shopping and leisure activities.
